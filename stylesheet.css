@@ -1,0 +1,27 @@
+#homepage {
+    grid-template-columns: 
+    20%
+    1fr
+    ;
+    grid-template-rows:
+    100px
+    1fr
+    100px
+    ;
+    grid-template-areas: 
+    "nav-header nav-header"
+    "nav body"
+    "nav body"
+    ;
+}
+
+header {
+    grid-area: nav-header;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+footer {
+    background-color: blue;
+}
