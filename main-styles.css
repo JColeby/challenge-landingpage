@@ -13,11 +13,12 @@
 
 .footer{
     background-color: #707070;
+    border-top:3px solid #ED1B2E
 }
 
 .body{
     background-color: white;
-    border-left: 3px solid #ED1B2E;
+    border-left: 2px solid #00548E;
 }
 
 .header img{
