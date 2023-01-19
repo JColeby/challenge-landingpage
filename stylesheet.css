@@ -35,6 +35,22 @@
     margin: 0;
     padding: 0;
     grid-area: body;
+    display: grid;
+    grid-template-columns: 
+    1fr
+    1fr
+    1fr
+    ;
+    grid-template-rows:
+    1fr
+    1fr
+    1fr
+    ;
+    grid-template-areas:
+    "pic1 pic2 pic3"
+    "pic4 pic5 pic6"
+    "pic7 pic8 pic9"
+    ;
 }
 
 .footer {
