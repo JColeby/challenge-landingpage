@@ -3,6 +3,10 @@
 
 }
 
+.header{
+    border-bottom: 5px solid #ED1B2E;
+}
+
 .footer{
     background-color: #707070;
 }
@@ -13,4 +17,5 @@
 
 .header img{
     width:200px;
+    height:150px;
 }
