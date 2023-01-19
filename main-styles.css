@@ -36,3 +36,12 @@
 .body >.body-content{
     padding:50px;
 }
+
+.body > .body-content > .theme{
+    display: flex;
+    align-items: center;
+}
+
+.body > .body-content > .theme > .theme-img img{
+    width:50%;
+}
