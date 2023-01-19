@@ -9,11 +9,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .footer{
     background-color: #707070;
-    border-top:3px solid #ED1B2E
+    border-top:5px solid #ED1B2E;
 }
 
 .body{
@@ -25,4 +26,13 @@
     width:200px;
     height:150px;
     border-right: 3px solid #ED1B2E;
+}
+
+
+.nav > .important-dates{
+    padding:10px;
+}
+
+.body >.body-content{
+    padding:50px;
 }
