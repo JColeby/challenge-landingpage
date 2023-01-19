@@ -1,6 +1,6 @@
 .nav{
     background-color:#00548E;
-    
+    padding:20px;
     
 }
 
@@ -30,7 +30,8 @@
 
 
 .nav > .important-dates{
-    padding:10px;
+    color:#bbb;
+    padding-top:30px;
 }
 
 .body >.body-content{
@@ -44,4 +45,19 @@
 
 .body > .body-content > .theme > .theme-img img{
     width:50%;
+}
+
+.nav > .bulleted-list{
+    color:#BBB;
+    font: 16px/1 'Montserrat', sans-serif;
+}
+
+li{
+    padding-bottom:10px;
+    line-height:110%;
+    list-style-type:none;
+}
+
+ul{
+    padding:0;
 }
