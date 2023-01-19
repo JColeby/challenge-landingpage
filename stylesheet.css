@@ -23,12 +23,12 @@
     grid-area: nav-header;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    
 }
 
 .nav {
     grid-area: nav;
-    background-color: aliceblue;
+    
 }
 
 .body {
@@ -39,5 +39,5 @@
 
 .footer {
     grid-area: footer;
-    background-color: #f0f0f0;
+    
 }
