@@ -13,14 +13,14 @@
     100px
     ;
     grid-template-areas:
-    "nav nav-header"
+    "header header"
     "nav body"
     "footer footer"
     ;
 }
 
 .header {
-    grid-area: nav-header;
+    grid-area: header;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -40,4 +40,5 @@
 .footer {
     grid-area: footer;
     background-color: #f0f0f0;
+    
 }
