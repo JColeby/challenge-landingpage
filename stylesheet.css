@@ -23,7 +23,7 @@
     grid-area: header;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image: url("images/Banner-img.png")
 }
 
 .nav {
