@@ -30,6 +30,9 @@
 
 
 .nav > .important-dates{
-    padding:10px
+    padding:10px;
+}
 
+.body >.body-content{
+    padding:50px;
 }
