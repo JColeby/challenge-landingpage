@@ -8,7 +8,7 @@
     1fr
     ;
     grid-template-rows:
-    100px
+    150px
     1fr
     100px
     ;
@@ -23,12 +23,13 @@
     grid-area: header;
     margin: 0;
     padding: 0;
+    
     background-image: url("images/Banner-img.png")
 }
 
 .nav {
     grid-area: nav;
-    background-color: aliceblue;
+    
 }
 
 .body {
@@ -39,6 +40,5 @@
 
 .footer {
     grid-area: footer;
-    background-color: #f0f0f0;
     
 }
