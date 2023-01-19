@@ -1,4 +1,8 @@
 #homepage {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    display: grid;
     grid-template-columns: 
     20%
     1fr
@@ -8,20 +12,32 @@
     1fr
     100px
     ;
-    grid-template-areas: 
-    "nav-header nav-header"
+    grid-template-areas:
+    "nav nav-header"
     "nav body"
-    "nav body"
+    "footer footer"
     ;
 }
 
-header {
+.header {
     grid-area: nav-header;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: #f0f0f0;
 }
 
-footer {
-    background-color: blue;
+.nav {
+    grid-area: nav;
+    background-color: aliceblue;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    grid-area: body;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #f0f0f0;
 }
