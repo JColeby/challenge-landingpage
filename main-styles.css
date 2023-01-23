@@ -54,7 +54,7 @@
 
 .body >.body-content{
     width: 90%;
-    margin:0 5% 0 5%
+    margin:0 5% 0 5%;
     
 }
 
@@ -143,14 +143,17 @@
     padding: 10px;
 }
 
-.footer {
+.footer{
     grid-area: footer;
+}
+
+.footer > .footer-wrapper{
+    
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin:0;
-    padding:0px 0 20px 0;
 
 }
 
@@ -176,5 +179,9 @@
 }
 
 .information, .Contact{
-    width:50%
+    width:45%
+}
+
+.footer h6{
+    text-align: center;
 }
