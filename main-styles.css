@@ -42,7 +42,8 @@
 }
 
 .body >.body-content{
-    padding:50px;
+    width: calc(100vh - 220px);
+    padding: 50px;
 }
 
 .body > .body-content > .theme{
@@ -50,8 +51,16 @@
     align-items: center;
 }
 
+.body > .body-content > .theme > .theme-text{
+    width:50%
+}
+
+.body > .body-content > .theme > .theme-img{
+    width:50%
+}
+
 .body > .body-content > .theme > .theme-img img{
-    width:50%;
+    width:100%;
 }
 
 .nav > .bulleted-list{
@@ -59,12 +68,17 @@
     font: 16px/1 'Montserrat', sans-serif;
 }
 
-li{
+.nav li{
     padding-bottom:10px;
     line-height:110%;
     list-style-type:none;
 }
 
-ul{
+.nav ul{
     padding:0;
+}
+
+.officer > .officer-img img{
+    width: 100%;
+
 }
