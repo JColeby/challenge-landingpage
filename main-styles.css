@@ -64,13 +64,14 @@
 }
 
 .body > .body-content > .theme > .theme-text{
-    width:50%;
+    width:auto;
     padding-left:20px;
-    text-align:center
+    text-align:center;
 }
 
 .body > .body-content > .theme > .theme-img{
-    width:50%
+    width:700px;
+    margin-bottom:20px;
 }
 
 .body > .body-content > .theme > .theme-img img{
