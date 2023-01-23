@@ -10,7 +10,7 @@
     grid-template-rows:
     155px
     1fr
-    100px
+    250px
     ;
     grid-template-areas:
     "header header"
@@ -94,4 +94,15 @@
 
 .footer {
     grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Info-info {
+    line-height: .5em;
+}
+.Contact-info {
+    line-height: .5em;
 }
