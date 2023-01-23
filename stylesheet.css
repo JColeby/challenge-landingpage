@@ -35,18 +35,19 @@
     grid-area: body;
 }
 
-.body > .resources {
+.resources-img {
     display: grid;
     grid-template-columns:
-    1fr
-    1fr
-    1fr
+    200px
+    200px
+    200px
     ;
     grid-template-rows:
-    1fr
-    1fr
-    1fr
+    200px
+    200px
+    200px
     ;
+    grid-gap: 2px;
     grid-template-areas:
     'pic1 pic2 pic3'
     'pic4 pic5 pic6'
@@ -54,8 +55,41 @@
     ;
 }
 
-.image1 {
+.image1 img {
     grid-area: pic1;
+    width: 200px;
+}
+.image2 img {
+    grid-area: pic2;
+    height: 200px;
+}
+.image3 img {
+    grid-area: pic3;
+    height: 200px;
+}
+.image4 img {
+    grid-area: pic4;
+    height: 200px;
+}
+.image5 img {
+    grid-area: pic5;
+    height: 200px;
+}
+.image6 img {
+    grid-area: pic6;
+    height: 200px;
+}
+.image7 img {
+    grid-area: pic7;
+    height: 200px;
+}
+.image8 img {
+    grid-area: pic8;
+    height: 200px;
+}
+.image9 img {
+    grid-area: pic9;
+    height: 200px;
 }
 
 .footer {
