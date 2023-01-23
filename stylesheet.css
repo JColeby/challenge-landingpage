@@ -30,6 +30,10 @@
     grid-area: nav;
 }
 
+.id-dates {
+    font-size: .8em;
+}
+
 /* 3x3 grid images */
 .body {
     grid-area: body;
