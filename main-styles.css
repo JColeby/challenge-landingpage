@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    box-shadow:#707070 
 }
 
 .footer{
@@ -23,9 +23,16 @@
 }
 
 .header img{
-    width:200px;
+    width:225px;
     height:150px;
-    border-right: 3px solid #ED1B2E;
+    border-width: 0px 70px 0px 0px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to right, 
+      white, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
 
 
