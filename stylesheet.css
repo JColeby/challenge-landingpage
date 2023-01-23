@@ -23,7 +23,6 @@
     grid-area: header;
     margin: 0;
     padding: 0;
-    
     background-image: url("images/Banner-img.png")
 }
 
@@ -31,12 +30,14 @@
     grid-area: nav;
 }
 
+/* 3x3 grid images */
 .body {
-    margin: 0;
-    padding: 0;
     grid-area: body;
+}
+
+.body > .resources {
     display: grid;
-    grid-template-columns: 
+    grid-template-columns:
     1fr
     1fr
     1fr
@@ -47,13 +48,11 @@
     1fr
     ;
     grid-template-areas:
-    "pic1 pic2 pic3"
-    "pic4 pic5 pic6"
-    "pic7 pic8 pic9"
-    ;
+    'pic1 pic2 pic3'
+    'pic4 pic5 pic6'
+    
 }
 
 .footer {
     grid-area: footer;
-    
 }
